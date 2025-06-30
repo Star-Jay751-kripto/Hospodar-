@@ -1,0 +1,78 @@
+
+1. Ouvri yon editè tèks (Notepad, VS Code, elatriye).  
+2. Kreye yon fichye rele `index.html` e kole kòd sa a ladan:  
+
+```html
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospodar Entreprise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hospodar Entreprise</h1>
+    <p>Vann Pwodwi Lakay | Enpresyon Foto & Dokiman</p>
+  </header>
+
+  <section class="services">
+    <h2>Sèvis Nou</h2>
+    <ul>
+      <li>✔ Vann pwodwi lokal</li>
+      <li>✔ Enpresyon foto sou papye</li>
+      <li>✔ Enpresyon dokiman</li>
+      <li>✔ Enpresyon sou tas, mayo, elatriye</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Kontakte Nou</h2>
+    <p>📞 +509 3529 7926</p>
+    <p>📧 hospodar@email.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hospodar Entreprise - Tout dwa rezève.</p>
+  </footer>
+</body>
+</html>
+```
+
+3. Kreye yon lòt fichye rele `style.css` epi kole kòd CSS sa a ladan:  
+
+```css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6f0ff;
+  color: #003366;
+[30/06 18:29] ChatGPT: line-height: 1.6;
+}
+
+header {
+  background-color: #0057b7;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.services, .contact {
+  padding: 20px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li::before {
+  content: "📌 ";
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px;
